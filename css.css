@@ -1,0 +1,166 @@
+ul {
+	list-style: none;
+}
+
+li {
+	margin-top: 10px;
+}
+
+a {
+	color: #F97C00;
+	text-decoration: none;
+}
+
+.navbar {
+	padding: 0 10%;
+
+}
+
+/* info  */
+.icons {
+	width: 80px;
+	height: 80px;
+}
+
+.carousel{
+   padding-top: 5% ;
+}
+.para {
+	font-size: 13px;
+}
+
+.info {
+	padding: 2% 5% 0;
+}
+
+/* Road image  */
+.road {
+	width: 100%;
+	height: 160px;
+	background: url("Images/road.jpg");
+	background-attachment: fixed;
+}
+
+/* Testimonials */
+.testi {
+	margin-top: 100px;
+}
+
+.ihover {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.animation {
+	padding:0;
+}
+
+.image {
+	opacity: 1;
+	display: block;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	transition: transform 0.5s;
+
+}
+
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+
+}
+
+.ihover:hover .image {
+	opacity: 0.5;
+
+}
+
+.ihover:hover .image {
+	transform: scale(1.1);
+}
+
+.ihover:hover .middle {
+	opacity: 1;
+}
+
+.text {
+	color: black;
+	font-size: 14px;
+
+
+}
+
+.philosophy p {
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+.philosophy {
+	padding: 10% 15%;
+	text-align: center;
+}
+
+/* Footer  */
+.footer {
+	background: #ed8c2b;
+	overflow: hidden;
+	padding: 2% 3%;
+}
+
+.icon {
+	font-size: 50px;
+
+}
+
+.f {
+	padding: 2% 4%;
+}
+
+.links {
+	margin-left: 20px;
+
+}
+
+.footend {
+	font-size: 11px;
+	padding: 1.5% 2%;
+	text-align: center;
+	overflow: hidden;
+}
+
+li:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.hov:hover {
+	color: white;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #F97C00;
+}
+
+@media(max-width:993px) {
+	.info {
+		text-align: center;
+	}
+
+	.footer {
+		text-align: center;
+	}
+
+	.icon {
+		padding: 10% 0;
+
+	}
+}
