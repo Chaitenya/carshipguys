@@ -15,6 +15,9 @@ a {
 	padding: 0 10%;
 
 }
+.logo{
+	width:70%;
+}
 
 /* info  */
 .icons {
@@ -163,7 +166,7 @@ a:hover {
 		padding: 10% 0;
 	}
 	.carousel{
-		padding-top:19%
+		padding-top:14%
 	}
 		
 }
